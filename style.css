@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(./assets/bg-mobile.jpg) no-repeat
+     top center/cover;
+}
+body *{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+#container{
+    width: 360px;
+    height: 712px;
+    /* alinhar ao centro*/
+    margin: 56px auto 0;
+    padding-top: 56px;
+}
+
+#profile{
+    padding: 24px;
+    text-align: center;
+}
+#profile img{
+    width: 112px;
+    border-radius: 50%;
+    border: solid 2px;
+
+    
+}
+#profile p{
+    margin-top: 8px;
+    font-weight: 500;
+    line-height: 24px;
+}
+/*Links*/
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px 0;
+}
+ul li a {    
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    transition: background 0.5s;
+}
+ul li a:hover{
+    transition: 0.15s;
+    border: 2px solid #ffffff;
+    background: rgba(255, 255, 255, 0.05);
+} 
+/* Social links*/
+#social-links{
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 24px 8px;
+    font-size: 32px;
+}
